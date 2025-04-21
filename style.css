@@ -913,3 +913,109 @@ footer .links a:hover {
         margin: 20% auto;
     }
 }
+/* Responsive Styles for Phones (max-width: 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 15px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    nav {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        display: block;
+        text-align: left;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 8px 0;
+    }
+
+    .header-section {
+        padding: 60px 0;
+    }
+
+    .col-2 h1 {
+        font-size: 2rem;
+    }
+
+    .col-2 p {
+        font-size: 1rem;
+    }
+
+    .col-2 a {
+        padding: 12px 25px;
+        font-size: 0.95rem;
+    }
+
+    .container h2 {
+        font-size: 2rem;
+    }
+
+    .newsletter .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .newsletter_form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .newsletter_form input[type="email"],
+    .newsletter_form button {
+        width: 100%;
+    }
+
+    .details-contact {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .info-contact,
+    .formulaire-contact {
+        padding: 25px;
+    }
+
+    footer .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .social-icons a {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+        line-height: 40px;
+        margin: 0 10px;
+    }
+
+    .back_to_top p {
+        font-size: 0.9rem;
+    }
+
+    .col-4 img,
+    .categories img {
+        height: 180px;
+    }
+
+    .col-4 h3,
+    .col-4 p {
+        font-size: 1rem;
+    }
+}

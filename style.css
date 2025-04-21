@@ -808,4 +808,264 @@ footer .links a:hover {
     font-size: 1.1em;
     transition: background-color 0.3s ease;
 }
+/* أنماط إضافية للهواتف المحمولة (أقل من 576 بكسل) */
+@media (max-width: 576px) {
+  body {
+    font-size: 0.9rem; /* تقليل حجم الخط العام قليلاً */
+    line-height: 1.5; /* تقليل تباعد الأسطر قليلاً لتوفير المساحة */
+  }
 
+  .navbar {
+    padding: 10px 15px; /* تقليل الحشو في الشريط العلوي */
+  }
+
+  .logo img {
+    width: 120px; /* تصغير حجم الشعار على الهواتف */
+  }
+
+  nav ul li {
+    margin: 10px 0; /* زيادة التباعد الرأسي بين روابط القائمة */
+  }
+
+  nav ul li a {
+    font-size: 1rem; /* حجم خط أصغر لروابط القائمة */
+  }
+
+  .container {
+    padding: 20px 15px; /* تقليل الحشو الجانبي في الحاويات */
+  }
+
+  .header-section {
+    padding: 60px 0; /* تقليل الحشو الرأسي في قسم الترويسة */
+  }
+
+  .col-2 h1 {
+    font-size: 2.2rem; /* تصغير حجم العنوان الرئيسي */
+    margin-bottom: 15px;
+  }
+
+  .col-2 p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .col-2 a {
+    padding: 12px 30px; /* تقليل حجم زر البداية */
+    font-size: 0.9rem;
+  }
+
+  .container h2 {
+    font-size: 2rem; /* تصغير حجم عناوين الأقسام */
+    margin: 50px 0 30px;
+  }
+
+  .categories {
+    padding: 50px 0; /* تقليل الحشو في قسم الفئات */
+  }
+
+  .categories .col-3 {
+    flex-basis: 100%; /* جعل الفئات تأخذ عرض كامل الشاشة */
+    margin-bottom: 20px;
+  }
+
+  .categories img {
+    height: auto; /* السماح بارتفاع الصورة بالتكيف */
+  }
+
+  .col-4 {
+    flex-basis: 100%; /* جعل المنتجات تأخذ عرض كامل الشاشة */
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .col-4 img {
+    height: auto; /* السماح بارتفاع صورة المنتج بالتكيف */
+  }
+
+  .col-4 h3 {
+    font-size: 1.1rem;
+    margin: 10px 5px 5px;
+  }
+
+  .col-4 .rating {
+    padding: 0 5px 5px;
+  }
+
+  .col-4 p {
+    font-size: 1rem;
+    padding: 0 5px 15px;
+  }
+
+  .contactez-nous {
+    padding: 60px 0; /* تقليل الحشو في قسم اتصل بنا */
+  }
+
+  .contactez-nous h2 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+  }
+
+  .details-contact {
+    gap: 30px; /* تقليل المسافة بين معلومات الاتصال والنماذج */
+    padding: 0 10px;
+  }
+
+  .info-contact,
+  .formulaire-contact {
+    padding: 30px; /* تقليل الحشو داخل مربعات الاتصال */
+  }
+
+  .info-contact h3,
+  .formulaire-contact h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+
+  .info-contact p {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+
+  .formulaire-contact input[type="text"],
+  .formulaire-contact input[type="email"],
+  .formulaire-contact textarea,
+  .add-products input[type="text"],
+  .add-products input[type="number"],
+  .add-products textarea,
+  .add-products button[type="submit"] {
+    font-size: 0.9rem; /* تصغير حجم خط الحقول والأزرار في النماذج */
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+
+  .formulaire-contact button[type="submit"],
+  .add-products button[type="submit"] {
+    padding: 12px 25px;
+  }
+
+  .order-button {
+    font-size: 0.9em; /* تصغير حجم خط زر طلب المنتج */
+    padding: 6px 12px;
+  }
+
+  #preview-name {
+    font-size: 1.1em;
+  }
+
+  #preview-description,
+  #preview-price {
+    font-size: 0.9rem;
+  }
+
+  .social-icons {
+    padding: 30px 0; /* تقليل الحشو في أيقونات التواصل الاجتماعي */
+  }
+
+  .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.2rem;
+    margin: 0 10px;
+  }
+
+  .newsletter {
+    padding: 60px 0; /* تقليل الحشو في قسم النشرة الإخبارية */
+  }
+
+  .newsletter .container {
+    flex-direction: column; /* تكديس عناصر النشرة الإخبارية عموديًا */
+    align-items: center;
+    text-align: center;
+  }
+
+  .newsletter .text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .newsletter .text img {
+    width: 50px;
+  }
+
+  .newsletter .content h4 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+
+  .newsletter .content p,
+  .newsletter .content h6 {
+    font-size: 1rem;
+  }
+
+  .newsletter_form {
+    flex-direction: column; /* تكديس عناصر النموذج عموديًا */
+    width: 100%;
+  }
+
+  .newsletter_form input[type="email"],
+  .newsletter_form button {
+    border-radius: 5px; /* تقليل استدارة حواف النموذج */
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .back_to_top {
+    padding: 20px 0; /* تقليل الحشو في زر العودة للأعلى */
+  }
+
+  .back_to_top p {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    padding: 2rem 1rem 0.5rem; /* تقليل الحشو في التذييل */
+  }
+
+  footer .container {
+    flex-direction: column; /* تكديس عناصر التذييل عموديًا */
+    align-items: center;
+    text-align: center;
+  }
+
+  footer .big_row,
+  footer .row {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  footer .big_row img {
+    width: 120px;
+  }
+
+  footer .hotline {
+    flex-direction: column; /* تكديس معلومات الخط الساخن عموديًا */
+    align-items: center;
+  }
+
+  footer .hotline i {
+    font-size: 1.5rem;
+  }
+
+  footer .links {
+    align-items: center;
+  }
+
+  .bottom_footer p {
+    font-size: 0.8rem;
+  }
+
+  .payment_img img {
+    height: 25px; /* تصغير صور الدفع */
+    margin: 0 5px;
+  }
+
+  .add-products h2 {
+    font-size: 1.8em; /* تصغير عنوان قسم إضافة المنتجات */
+    margin-bottom: 20px;
+  }
+
+  .add-products .form-group label {
+    font-size: 0.9rem;
+  }
+}

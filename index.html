@@ -1,0 +1,337 @@
+<?php
+// يمكنك وضع كود PHP هنا إن أردت معالجة نموذج الاتصال مثلاً
+?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haute Couture - Best Quality</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+   
+    <section id="accueil" class="header-section">
+        <div class="container">
+            <header class="navbar">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Haute Couture - Best Quality">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#accueil">Acceuil</a></li>
+                        <li><a href="#produits">Produits</a></li>
+                        <li><a href="#apropos-row">Apropos</a></li>
+                        <li><a href="#contactez-nous">Contact</a></li>
+                        <li><a href="#add-products" class="produits"></a></li>
+                    </ul>
+                    <img src="img/cart.png" alt="Cart icon" width="26px">
+                </nav>
+            </header>
+            <div id="apropos-row" class="row">
+                <div class="col-2">
+                    <h1>Inspirez votre quotidien. <br> nos nouvelles collections !</h1>
+                    <p>Le succès en matière de mode ne réside pas dans une pièce unique mais dans l'harmonie de vos looks
+                        .<br> Découvrez nos arrivages et créez des ensembles qui vous inspirent jour après jour. <br>
+                        Laissez la grandeur de votre style s'épanouir naturellement.</p>
+                    <a id="exploreNowButton" href="">Explorez Maintenant &#10140;</a>
+                </div>
+                <div class="col-2">
+                    <img src="img/image1.png" alt="landing img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="apropos" class="categories">
+        <div class="container">
+            <h2>Catégories Veddetes</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/categorie1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/categorie2.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/categorie3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produits" class="featured-products">
+    <div class="container">
+        <h2>Meilleurs Modèles</h2>
+        <div class="row" id="products-list">
+            <div class="col-4">
+                <img src="img/products1.png" alt="produit 1">
+                <h3>Robe princesse glamour bleu nuit</h3>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>10800 DA</p>
+                <button class="order-button" data-product-name="Robe princesse glamour bleu nuit" data-product-price="10800 DA">طلب المنتج</button>
+            </div>
+            <div class="col-4">
+                <img src="img/products2.png" alt="produit 2">
+                <h3>Robe velours noir et blanc</h3>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>6800 DA</p>
+                <button class="order-button" data-product-name="Robe velours noir et blanc" data-product-price="6800 DA">طلب المنتج</button>
+            </div>
+            <div class="col-4">
+                <img src="img/products3.png" alt="produit 3">
+                <h3>Fluidité de la soie</h3>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>9500 DA</p>
+                <button class="order-button" data-product-name="Fluidité de la soie" data-product-price="9500 DA">طلب المنتج</button>
+            </div>
+            <div class="col-4">
+                <img src="img/products4.png" alt="produit 4">
+                <h3>Robe mousseline</h3>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>8000 DA</p>
+                <button class="order-button" data-product-name="Robe mousseline" data-product-price="8000 DA">طلب المنتج</button>
+            </div>
+            </div>
+    </div>
+</section>
+<section id="dernieres-modeles" class="latest-models">
+    <div class="container">
+        <h2>Nos Derniers Modèles</h2>
+        <div class="row" id="latest-models-list">
+            <div class="col-4">
+                <img src="img/new1.png" alt="modèle 1">
+                <h3>Robe satinée bordeaux</h3>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>9900 DA</p>
+                <button class="order-button" data-product-name="Robe satinée bordeaux" data-product-price="9900 DA">طلب المنتج</button>
+            </div>
+            <div class="col-4">
+                <img src="img/new2.png" alt="modèle 2">
+                <h3>Ensemble chic beige</h3>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>8700 DA</p>
+                <button class="order-button" data-product-name="Ensemble chic beige" data-product-price="8700 DA">طلب المنتج</button>
+            </div>
+            <div class="col-4">
+                <img src="img/new3.png" alt="modèle 3">
+                <h3>Karakou</h3>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>11200 DA</p>
+                <button class="order-button" data-product-name="Karakou" data-product-price="11200 DA">طلب المنتج</button>
+            </div>
+            <div class="col-4">
+                <img src="img/new4.png" alt="modèle 4">
+                <h3>Robe soirée strassée</h3>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>10200 DA</p>
+                <button class="order-button" data-product-name="Robe soirée strassée" data-product-price="10200 DA">طلب المنتج</button>
+            </div>
+        </div>
+    </div>
+</section>
+    
+        <section id="contactez-nous" class="contactez-nous">
+    <h2>Contactez-nous</h2>
+        <div class="details-contact">
+          <div class="info-contact">
+            <h3>Informations de contact</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Tenira, Sidi Bel-Abbes, Algerie</p>
+            <p><i class="fas fa-phone"></i> +213 675640362</p>
+            <p><i class="fas fa-envelope"></i> waliddjerriri43@gmail.com</p>
+          </div>
+         <div class="formulaire-contact">
+            <h3>Envoyez-nous un message</h3>
+            <form>
+                <input type="text" placeholder="Votre nom">
+                <input type="email" placeholder="Votre adresse e-mail">
+                <textarea placeholder="Votre message"></textarea>
+                <button type="submit">Envoyer</button>
+             </form>
+            </div>
+          </div>
+         </section>
+         <section id="add-products" class="add-products">
+    <div class="container">
+        <h2>Ajouter un Produit</h2>
+        <form id="product-form">
+            <div class="form-group">
+                <label for="product-name">Nom du Produit:</label>
+                <input type="text" id="product-name" name="product-name" required>
+            </div>
+            <div class="form-group">
+                <label for="product-description">Description:</label>
+                <textarea id="product-description" name="product-description" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="product-price">Prix:</label>
+                <input type="number" id="product-price" name="product-price" min="0" step="0.01" required>
+            </div>
+            <div class="form-group">
+                <label for="product-image">Image:</label>
+                <input type="file" id="product-image" name="product-image" accept="image/*">
+            </div>
+            <button type="submit">Ajouter</button>
+        </form>
+        <div id="product-preview">
+            <h3>Aperçu du Produit</h3>
+            <div id="preview-container">
+                <img id="preview-image" src="#" alt="Aperçu de l'image">
+                <h4 id="preview-name"></h4>
+                <p id="preview-description"></p>
+                <p id="preview-price"></p>
+            </div>
+        </div>
+    </div>
+</section>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/d.u.d.u.956635"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="newsletter">
+            <div class="container">
+                <div class="text">
+                    <img src="img/icon_email.png" alt="">
+                    <div class="content">
+                        <h4>sign up to newsletter</h4>
+                        <p>Get email updates about our latest shop...and receive</p>
+                        <h6>$30 Coupon For First Shopping</h6>
+                    </div>
+                </div>
+    
+                <form action="" class="newsletter_form">
+                    <input type="email" placeholder="Enter your email here...">
+                    <button type="submit">subscribe</button>
+                </form>
+        </div>
+        </div>
+    
+        <div class="back_to_top">
+            <p>back to top</p>
+        </div>
+    
+        <footer>
+            <div class="container">
+                <div class="big_row">
+                    <img src="img/logo-white.png" alt="">
+                    <div class="hotline">
+                        <i class="fa-solid fa-headset"></i>
+                        <div class="text">
+                            <h5>Hotline Free 24/24:</h5>
+                            <h6>(+213) 675640362</h6>
+                        </div>
+                    </div>
+    
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit consectetur.</p>
+                </div>
+    
+                <div class="row">
+                    <h4>FAQs & Help</h4>
+    
+                    <div class="links">
+                        <a href="#">F.A.Q.’s</a>
+                        <a href="#">Ordering Tracking</a>
+                        <a href="#">Contacts</a>
+                        <a href="#">Events</a>
+                        <a href="#">Help Center</a>
+                    </div>
+                </div>
+    
+    
+                <div class="row">
+                    <h4>Shipping & Delivery</h4>
+    
+                    <div class="links">
+                        <a href="#">Delivery Information</a>
+                        <a href="#">Discount</a>
+                        <a href="#">Payment & Shipping</a>
+                        <a href="#">Estimated Delivery Time</a>
+                        <a href="#">Shipping Guide</a>
+                    </div>
+                </div>
+    
+    
+                <div class="row">
+                    <h4>Information</h4>
+    
+                    <div class="links">
+                        <a href="#">Popular</a>
+                        <a href="#">Our Services</a>
+                        <a href="#">Your Account</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Condition</a>
+                    </div>
+                </div>
+    
+    
+            </div>
+    
+            <div class="bottom_footer">
+                <div class="container">
+                    <p>Copyright &copy; <span>Haute-Couture</span> all rights reserved</p>
+    
+                    <div class="payment_img">
+                        <img src="img/payment-1.png" alt="">
+                        <img src="img/payment-2.png" alt="">
+                        <img src="img/payment-3.png" alt="">
+                        <img src="img/payment-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+  </body>
+</html>
+
+
